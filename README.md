@@ -3,7 +3,8 @@ Manage Single Web App vues without using Angular. This is a Jquery exemple to in
 
 The goal of this snippet is to use divs as pages and link them to the url'anchor. You will then be able to navigate in your project using simple href="#nameofyourview".
 
-#How to use it in your project? 
+# How to use it in your project? 
+
 First, you need to wrap all your content in divs. In this example we have 5 divs:
 
 "0": "#bulk-search",
@@ -12,9 +13,11 @@ First, you need to wrap all your content in divs. In this example we have 5 divs
 "3": "#bulk-search-results",
 "4": "#simple-search-results"
 
+
 And list them in the anchorPages object. 
 
 Next, add a case for each of your "pages" like this: 
+
 
 //if hash is #export-validation
         case 'export-validation':
